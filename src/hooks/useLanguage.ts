@@ -33,8 +33,8 @@ export function useLanguage() {
         setLocale('tr-TR')
         return enUS  
       default:
-        setLocale('zh-CN')
-        return zhCN
+        setLocale('zh-TW')
+        return zhTW
     }
   })
 
