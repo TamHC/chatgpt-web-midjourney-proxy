@@ -128,7 +128,7 @@ export const runwayUpload= async (file:any , type :string)=>{
         headers: {
             'Content-Type': d.uploadHeaders["Content-Type"],
             'Accept': '/',
-            'Accept-Language': 'zh-CN,zh;q=0.9',
+            'Accept-Language': 'zh-TW,zh;q=0.9',
             'Connection': 'keep-alive'
         }
     }) ;
