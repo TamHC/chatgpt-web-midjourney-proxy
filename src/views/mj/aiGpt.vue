@@ -243,7 +243,7 @@ watch(()=>homeStore.myData.act, async (n)=>{
         const chatSet = new chatSetting(   +st.value.uuid  );
         const nGptStore =   chatSet.getGptConfig()  ; 
 
-        subTTS({model:'tts-1',input: actData.text , voice:nGptStore.tts_voice }).then(d=>{
+        subTTS({model:'tts-1-hd',input: actData.text , voice:nGptStore.tts_voice }).then(d=>{
                 ms.success( t('mj.ttsSuccess'));
                 mlog('subTTS',d );
                 //d.player.play(); 
