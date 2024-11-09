@@ -9,7 +9,7 @@ const go = async () => {
   const apiKey = 'sdsd-121212';
 
 const apiUrl = 'https://api.openai-sk.com/v1/audio/speech';
-const ttsModel = 'tts-1';
+const ttsModel = 'tts-1-hd';
 const voice = 'alloy';
 //const inputText = 'I am a good student!';
 
