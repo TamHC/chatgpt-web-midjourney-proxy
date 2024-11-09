@@ -404,7 +404,7 @@ export const defaultVisionModel=()=>{
 }
 
 export const isTTS= ( model:string )=>{
-    if(model.indexOf('tts-1')===0 )return true; 
+    if(model.indexOf('tts-1-hd')===0 )return true; 
     return false ;
 }
 
